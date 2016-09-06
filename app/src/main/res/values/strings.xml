@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TwoScreens</string>
+    <string name="hint">Type here...</string>
 </resources>
