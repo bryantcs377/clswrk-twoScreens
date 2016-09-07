@@ -13,16 +13,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //change
-
-        //difference
-
     }
 
     protected void btnClicked(View view) {
 
         Intent intent = new Intent(this,ShowMessage.class);
-
+// this references public class MainActivity
         EditText txt = (EditText) findViewById(R.id.editText);
         String msg = txt.getText().toString();
         intent.putExtra("message",msg);
